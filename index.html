@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Homework-2</title>
+    <style>
+        table,
+        td,
+        th {
+          border: solid black 1px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th>Телефон</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Тирион</td>
+                <td>Ланистер</td>
+                <td>+38(098)1235487</td>
+                <td>mind_giant@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Дэйнерис</td>
+                <td>Таргариен</td>
+                <td>+38(098)1234567</td>
+                <td>unburned@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Джон</td>
+                <td>Сноу</td>
+                <td>+38(098)1233211</td>
+                <td>sweet_curly@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Арья</td>
+                <td>Старк</td>
+                <td>+38(098)1239876</td>
+                <td>nobody@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br />
+
+    <form>
+        <p>
+            <input type="text" name="first_name" placeholder="Введите Ваше имя" />
+        </p>
+        <p>
+            <input type="text" name="last_name" placeholder="Введите Вашу фамилию" />
+        </p>
+        <p>
+            <b>Укажите Ваш пол:</b>
+        </p>
+        <p>
+            <input type="radio" name="sex" value="man">
+            <b>Мужской</b>
+        </p>
+        <p>
+            <input type="radio" name="sex" value="woman" />
+            <b>Женский</b>
+        </p>
+        <textarea name="question" placeholder="Напишите свой вопрос" cols="25" rows="6"></textarea>
+        <br />
+        <br />
+        <select name="city">
+            <option selected disabled>Выберите город</option>
+            <option value="Kiev">Киев</option>
+            <option value="Odessa">Одесса</option>
+            <option value="Lviv">Львов</option>
+            <option value="Kharkov">Харьков</option>
+        </select>
+        <p>
+            <b>Выбор языка:</b>
+        </p>
+        <p>
+            <input type="checkbox" name="lang1" value="ru">Русский<br />
+            <input type="checkbox" name="lang2" value="ua">Українська<br />
+            <input type="checkbox" name="lang3" value="en">English<br />
+        </p>
+        <p>
+            <input type="submit" value="Отправить">
+        </p>
+    </form>
+</body>
+</html>
